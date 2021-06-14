@@ -376,43 +376,48 @@ img.project-img {
 
 }
 .section-3-background{
+  background-image: url(./backgroundimage2.png);
+  background-repeat: no-repeat;
   position: absolute;
-  left: 0;
-  width:65%;
-  height: 58%;
-  bottom: 10%;
+  
+  width:100%;
+  height: 70%;
+  bottom: 0%;
+  
 }
 .section-3-background-Image {
+  background-image: url(./AboutVectorBackground.png);
+  background-repeat: no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
-  z-index: 0;
+  
+  
 }
 .section-3-intro{
 
 }
 .section-3-paragraph{
- 
+ padding-top: 2rem;
   font-family: Roboto;
 font-size: 2rem;
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
+line-height: 3rem;
+text-align: left;
+background-color: rgba(167, 167, 167, 0.753);
+border-radius: .2rem;
 
-text-align: center;
+width:80vw;
+height: 50vh;
+box-shadow: .1rem .2rem .4rem rgba(43, 43, 43, 0.507);
 
-letter-spacing: 0.14em;
-right:5%;
-width:80%;
-bottom:20%;
-
- color: #EFEFEF;
+ color: #202020;
  z-index: 20;
 
 }
 .section-3-skills{
-  width: 50%;
+  width: 100%;
   height: 100vh;
  
   display: flex;
@@ -434,7 +439,7 @@ justify-content: center;
 .section-3-about{
   
   right: 0;
-  width: 50%;
+  width: 100%;
   height: 100vh;
   
   display: flex;
@@ -477,9 +482,47 @@ justify-content: center;
   border-radius: .3rem;
 }
 /* End of Section 3 */
+/* Section 4 */
+.section-4 {
+  height: 100vh;
+  
+  padding: 1rem 0;
+  background-color: #eef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    #4f97a0 11.25%,
+    #5b8679 50.31%,
+    #60b49f 83.65%,
+    #71a885 100%
+  );
 
+  
+}
+/* End of Section 4 */
 
 @media screen and (max-width: 390px)and (min-width: 100px)  {
+  .section-4 {
+    height: 100vh;
+    width: 99%;
+    padding: 1rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      #4f97a0 11.25%,
+      #5b8679 50.31%,
+      #60b49f 83.65%,
+      #71a885 100%
+    );
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+  }
   .navbar{
     
     width:25rem;
@@ -825,6 +868,10 @@ justify-content: center;
   /* box-shadow: .4rem .5rem .6rem grey; */
 transition:all .3s ease-in-out
 }
+.form-Item::placeholder{
+  color:rgba(56, 56, 56, 0.877);
+  font-size: 1.5rem
+}
 .contact-header{
   font-size:2.5rem;
   color: rgb(230, 230, 230);
@@ -868,6 +915,9 @@ transition:all .3s ease-in-out
                inset -2px -2px 5px #008ebda8;
   background-color: rgba(255, 255, 255, 0.336)
 }
+.formtextbox::placeholder{
+  color:#243832;
+}
 .fas{
   height: 100%;
   padding-top: .4rem;
@@ -895,6 +945,25 @@ transition:all .3s ease-in-out
 }
 /* end of sectiion 5  */
 @media screen and (max-width: 500px)and (min-width: 390px)  {
+  .section-4 {
+    height: 100vh;
+    width: 99%;
+    padding: 1rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      #4f97a0 11.25%,
+      #5b8679 50.31%,
+      #60b49f 83.65%,
+      #71a885 100%
+    );
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+  }
   .formcard{
   
     width:90%;
@@ -1109,17 +1178,7 @@ width:100%;
  z-index: 20;
 
 }
-.section-3-skills{
-  width: 100%;
-  height: 30vh;
- 
-  display: flex;
-  flex-direction: column;
-justify-content: center;
-  align-items: center;
- 
-  z-index: 15;
-}
+
 .section-3-skills-header{
  
   color: white;
@@ -1147,6 +1206,39 @@ justify-content: center;
   z-index: 20;
 
 }
+
+/* End of Section 3 */
+/* Section 4 Start */
+.section-4 {
+  height: 100vh;
+  width: 99%;
+  padding: 1rem 0;
+  background-color: #eef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    #4f97a0 11.25%,
+    #5b8679 50.31%,
+    #60b49f 83.65%,
+    #71a885 100%
+  );
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+}
+.section-3-skills{
+  width: 100%;
+  height: 30vh;
+ 
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+  align-items: center;
+ 
+  z-index: 15;
+}
 .skill-box{
   display: flex;
   justify-content: center;
@@ -1172,8 +1264,8 @@ justify-content: center;
   box-shadow: .2rem .3rem .4rem rgb(39, 39, 39);
   border-radius: .3rem;
 }
-/* End of Section 3 */
 
+/* End of section 4 Skills */
 
 }
 @media screen and (max-width: 750px)and (min-width: 500px)  {
@@ -1189,6 +1281,25 @@ justify-content: center;
     inset -2px -2px 5px #008ebda8;
     border-radius:.3rem;
   
+  }
+  .section-4 {
+    height: 100vh;
+    width: 99%;
+    padding: 1rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      #4f97a0 11.25%,
+      #5b8679 50.31%,
+      #60b49f 83.65%,
+      #71a885 100%
+    );
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
   }
   .form-section-5{
     display:flex;
@@ -1232,6 +1343,25 @@ justify-content: center;
   
 }
 @media screen and (max-width: 1040px) and (min-width:0px){
+  .section-4 {
+    height: 100vh;
+    width: 99%;
+    padding: 1rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      #4f97a0 11.25%,
+      #5b8679 50.31%,
+      #60b49f 83.65%,
+      #71a885 100%
+    );
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+  }
   .formcard{
     padding:1rem;
     background-color:#00567385;
@@ -1262,7 +1392,25 @@ justify-content: center;
   }
 }
 @media screen and (max-width: 1200px)and (min-width: 750px)  {
+  .section-4 {
+    height: 100vh;
+    width: 99%;
+    padding: 1rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      #4f97a0 11.25%,
+      #5b8679 50.31%,
+      #60b49f 83.65%,
+      #71a885 100%
+    );
   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+  }
   .project {
     padding-top: 0.5rem;
     width: 38vw;
