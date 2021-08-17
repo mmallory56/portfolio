@@ -399,15 +399,14 @@ img.project-img {
 }
 .section-3-paragraph{
  padding-top: 2rem;
- padding: .5rem;
+ padding: 5rem;
   font-family: Roboto;
-font-size: 2rem;
+font-size: 1.5vw;
 font-style: normal;
-font-weight: 400;
-line-height: 3rem;
+
 text-align: left;
-background-color: rgba(167, 167, 167, 0.753);
-border-radius: .2rem;
+background-color: #4f96a0ce;
+border-radius: .5rem;
 
 width:80vw;
 height: 50vh;
@@ -733,20 +732,19 @@ img.project-img {
 
 }
 .section-3-paragraph{
- 
+ padding: 20px;
   font-family: Roboto;
-font-size: 1.9rem;
+font-size: 1vw;
 font-style: normal;
-font-weight: 700;
-line-height: 46px;
-
-text-align: center;
+margin-top:25vh;
+height:auto;
+text-align: left;
 
 
 width:100%;
 
 
- color: #EFEFEF;
+
  z-index: 20;
 
 }
@@ -1164,18 +1162,18 @@ img.project-img {
 .section-3-paragraph{
  
   font-family: Roboto;
-font-size: 1.9rem;
+font-size: 3vh;
 font-style: normal;
-font-weight: 700;
-line-height: 46px;
+margin-top: 20vh;
 
-text-align: center;
 
+text-align: left;
+height:70vh;
 
 width:100%;
 
 
- color: #EFEFEF;
+ 
  z-index: 20;
 
 }
@@ -1381,15 +1379,14 @@ justify-content: center;
     visibility:hidden;
   }
   .section-3-paragraph{
- 
+
     font-family: Roboto;
-  font-size: 1.5rem;
+  font-size: 2vw;
   font-style: normal;
-  text-align: center;
-  right:5%;
-  bottom:20%;
+  text-align: left;
+ 
    z-index: 20;
-  
+  height:auto;
   }
 }
 @media screen and (max-width: 1200px)and (min-width: 750px)  {
@@ -1431,21 +1428,21 @@ justify-content: center;
   .section-3-paragraph{
  
     font-family: Roboto;
-  font-size: 2rem;
+  
   font-style: normal;
-  font-weight: 700;
+  
+ font-size: 2vw;
  
- 
-  text-align: center;
+  text-align: left;
   
 
   right:5%;
   width:80%;
   bottom:20%;
   
-   color: #EFEFEF;
-   z-index: 20;
   
+   z-index: 20;
+  height:70vh;
   }
 
 }
